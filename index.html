@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+   
+    
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Interactive Dashboard</h1>
+    </header>
+   
+  
+        
+    </div>
+    
+    <div id="map-bar-container">
+        <div id="map" class="card"></div>
+    
+        <div id="bar-charts" class="card"></div>
+       
+    </div>
+   
+    
+    
+    <!-- <div id="tooltip"></div> -->
+    <div class="controls">
+        <label for="timeDropdown">Select Time:</label>
+        <select id="timeDropdown">
+            <option value="year">Yearly</option>
+            <option value="month">Monthly</option>
+            <option value="week">Weekly</option>
+        </select>
+        <div id="visualization"class="card"></div>
+
+    </div>
+   
+    <section id="PieChart" class="card"></section>
+    
+
+    
+
+    
+    
+
+
+    
+</body>
+</html>
