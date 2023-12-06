@@ -399,8 +399,8 @@ d3.csv('Red_Light_Camera_ViolationsPreprocessed_a.csv').then(data => {
         barChartContainer.html("");  // Clear previous content
     
         const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-        const width = 600 - margin.left - margin.right;
-        const height = 600 - margin.top - margin.bottom;
+        const width = 400 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
     
         const svgLineChart = barChartContainer.append("svg")
             .attr("width", width + margin.left + margin.right)
@@ -473,8 +473,8 @@ d3.csv('Red_Light_Camera_ViolationsPreprocessed_a.csv').then(data => {
         barChartContainer.html("");  // Clear previous content
     
         const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-        const width = 600 - margin.left - margin.right;
-        const height = 600 - margin.top - margin.bottom;
+        const width = 400 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
     
         const svgLineChart = barChartContainer.append("svg")
             .attr("width", width + margin.left + margin.right)
@@ -547,8 +547,8 @@ d3.csv('Red_Light_Camera_ViolationsPreprocessed_a.csv').then(data => {
         barChartContainer.html("");  // Clear previous content
     
         const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-        const width = 600 - margin.left - margin.right;
-        const height = 600 - margin.top - margin.bottom;
+        const width = 400 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
     
         const svgLineChart = barChartContainer.append("svg")
             .attr("width", width + margin.left + margin.right)

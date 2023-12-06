@@ -33,11 +33,8 @@
         </p>
     </div>
   
-    <div id="centered-section" class="card">
+    
         <h1>1. Violation Map</h1>
-        <p id="centered-paragraph">This is a violation Map. Each dot here represents a Camera. We calcuated Yearly, Monthly and Weekly violations that each camera captured throughout the Years.<br>
-            Click on the camera to get a line chart next to the map. Then ,Select an option for Time. You can see the changes in violations Yearly, Monthly and Weekly.
-        </p>
         <div class="controls">
             <label for="timeDropdown">Select Time:</label>
             <select id="timeDropdown">
@@ -46,7 +43,7 @@
                 <option value="week">Weekly</option>
             </select>
             
-        </div>
+        
         <div id="map-bar-container">
             <div id="map" class="card"></div>
         
@@ -57,15 +54,11 @@
    
     
         
-    <div id="centered-section" class="card">
-        <h1>2. Aggregated Bar Graph</h1>
-        <p id="centered-paragraph">This is a Bar Chart That calculates Total Violations occured each Year, Month and Week.<br>
-            From the previous visualization, if you change the options in dropdown, you can see that this bar chart and the above Line chart in the previous visualizationchange accordingly.
-        </p>
-  
+    
+        <h1>2. Aggregated Bar Graph</h1>  
    
     <div id="visualization"class="card"></div>
-    </div>
+   
  
 
 <style>
@@ -168,17 +161,16 @@
     
     </script>
 
-<div id="centered-section" class="card">
+
     <h1>3. Brushable Scatter Plot</h1>
-    <p id="centered-paragraph">On the Scatterplot, when you draw, the  total violations of selected intersections over time and the total violations made by rest of the intersections over time is plotted as a Donut Plot.
-    </p>
+
 
 
     <div id="scatterplot"></div>
     <div id="donut-chart"></div>
     
         <div id="donut-legend"></div>
-</div>
+
 
 
 
@@ -413,4 +405,6 @@
 <iframe src="visualization_stack.html" width="100%" height="600px" frameborder="0"></iframe>
   
 </body>
+
+
 </html>
